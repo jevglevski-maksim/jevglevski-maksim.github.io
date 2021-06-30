@@ -1,0 +1,33 @@
+body {
+    /* background-color: #35333d;*/
+     background-image: url('contents/fon.gif');
+     background-size: cover;
+     text-align: center
+ }
+
+
+a {
+    color: #918bb1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Monaco, "Courier New", monospace;
+}
+a:hover {
+  color: #64607c;
+}
+
+h1, h2{
+    color: #adacb3;
+    font-family: Monaco, "Courier New", monospace;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 1px;
+    width: 150px;
+  }
+  
+img:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+  }
