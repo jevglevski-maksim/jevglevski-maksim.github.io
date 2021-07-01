@@ -1,6 +1,6 @@
 body {
     /* background-color: #35333d;*/
-     background-image: url('contents/fon.gif');
+     background-image: url('https://i.imgur.com/4ISJx6U.gif');
      background-size: cover;
      text-align: center
  }
@@ -30,4 +30,19 @@ img {
   
 img:hover {
     box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+  }
+
+  .container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
